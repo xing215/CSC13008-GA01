@@ -28,6 +28,31 @@ body {
   color: #333;
 }
 
+/* Custom link styling - but not in navigation */
+main a,
+.content a,
+p a,
+article a {
+  color: #4acaa8;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+main a:hover,
+.content a:hover,
+p a:hover,
+article a:hover {
+  color: #3ba890;
+  text-decoration: underline;
+}
+
+main a:active,
+.content a:active,
+p a:active,
+article a:active {
+  color: #2d8c78;
+}
+
 .primarycolor {
   color: #4acaa8;
 }
