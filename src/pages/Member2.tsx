@@ -216,32 +216,65 @@ const Member2 = () => {
                     </div>
 
                     <ul className="space-y-3">
-                        <li className="flex items-start">
-                            <span className="text-primary mr-5 translate-y-0.5">
-                                ▸
-                            </span>
-                            <span className="text-gray-800">
-                                <strong>Wumpus World Agent</strong>{" "}
-                                <em>
-                                    (
-                                    <a
-                                        className="underline decoration-primary/30 underline-offset-4 hover:decoration-primary"
-                                        href="https://www.youtube.com/watch?v=5qo3aiVvf0I"
-                                        target="_blank"
-                                        rel="noreferrer"
-                                    >
-                                        Youtube
-                                    </a>
-                                    )
-                                </em>
-                                <br />
-                                <span className="text-gray-600">
-                                    <em>
-                                        Introduction to Artificial Intelligence
-                                    </em>
+                        <div className="flex items-center justify-around gap-3 mb-6">
+                            {/* Project 1 */}
+                            <li className="flex items-start ">
+                                <span className="text-primary mr-5 translate-y-0.5">
+                                    ■
                                 </span>
-                            </span>
-                        </li>
+                                <span className="text-gray-800">
+                                    <strong>Rush hour</strong>{" "}
+                                    <em>
+                                        (
+                                        <a
+                                            className="underline decoration-primary/30 underline-offset-4 hover:decoration-primary"
+                                            href="https://www.youtube.com/watch?v=tkDKq8XN4TI&t=16s"
+                                            target="_blank"
+                                            rel="noreferrer"
+                                        >
+                                            Youtube
+                                        </a>
+                                        )
+                                    </em>
+                                    <br />
+                                    <span className="text-gray-600">
+                                        <em>
+                                            Introduction to Artificial
+                                            Intelligence
+                                        </em>
+                                    </span>
+                                </span>
+                            </li>
+
+                            {/* Project 2 */}
+                            <li className="flex items-start">
+                                <span className="text-primary mr-5 translate-y-0.5">
+                                    ■
+                                </span>
+                                <span className="text-gray-800">
+                                    <strong>Wumpus World Agent</strong>{" "}
+                                    <em>
+                                        (
+                                        <a
+                                            className="underline decoration-primary/30 underline-offset-4 hover:decoration-primary"
+                                            href="https://www.youtube.com/watch?v=5qo3aiVvf0I"
+                                            target="_blank"
+                                            rel="noreferrer"
+                                        >
+                                            Youtube
+                                        </a>
+                                        )
+                                    </em>
+                                    <br />
+                                    <span className="text-gray-600">
+                                        <em>
+                                            Introduction to Artificial
+                                            Intelligence
+                                        </em>
+                                    </span>
+                                </span>
+                            </li>
+                        </div>
                     </ul>
                 </div>
             </div>
