@@ -143,7 +143,7 @@ const Member5 = () => {
                   href="https://github.com/HuynhLuan05"
                   className="text-blue-600 hover:underline"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   github.com/HuynhLuan05
                 </a>
