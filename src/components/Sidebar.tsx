@@ -61,7 +61,7 @@ const Sidebar = () => {
           <div className="bg-primary text-white p-8">
             <div className="w-24 h-24 mx-auto mb-4 rounded-full bg-white overflow-hidden border-4 border-white shadow-lg">
               <img
-                src="https://via.placeholder.com/150"
+                src={`${import.meta.env.BASE_URL}sabi.png`}
                 alt="Team Logo"
                 className="w-full h-full object-cover"
               />

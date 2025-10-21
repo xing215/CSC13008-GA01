@@ -32,7 +32,7 @@ const Member2 = () => {
                     <div className="flex flex-col md:flex-row md:items-end -mt-20 md:-mt-16 mb-8">
                         <div className="w-32 h-32 rotate-1 rounded-2xl border-4 border-white shadow-xl overflow-hidden bg-gray-100 mb-4 md:mb-0">
                             <img
-                                src="/nhtanh/tnnhuaa.jpg"
+                                src={`${import.meta.env.BASE_URL}nhtanh/tnnhuaa.jpg`}
                                 alt="Nguyễn Hiền Tuấn Anh"
                                 className="w-full h-full object-cover"
                             />
@@ -215,10 +215,10 @@ const Member2 = () => {
                         <div className="flex-1 h-px bg-gray-300" />
                     </div>
 
-                    <ul className="space-y-3">
-                        <div className="flex items-center justify-around gap-3 mb-6">
+                    <div className="flex items-center justify-around gap-3 mb-6">
+                        <ul className="space-y-3 flex-1">
                             {/* Project 1 */}
-                            <li className="flex items-start ">
+                            <li className="flex items-start">
                                 <span className="text-primary mr-5 translate-y-0.5">
                                     ■
                                 </span>
@@ -230,7 +230,7 @@ const Member2 = () => {
                                             className="underline decoration-primary/30 underline-offset-4 hover:decoration-primary"
                                             href="https://www.youtube.com/watch?v=tkDKq8XN4TI&t=16s"
                                             target="_blank"
-                                            rel="noreferrer"
+                                            rel="noopener noreferrer"
                                         >
                                             Youtube
                                         </a>
@@ -245,7 +245,9 @@ const Member2 = () => {
                                     </span>
                                 </span>
                             </li>
+                        </ul>
 
+                        <ul className="space-y-3 flex-1">
                             {/* Project 2 */}
                             <li className="flex items-start">
                                 <span className="text-primary mr-5 translate-y-0.5">
@@ -259,7 +261,7 @@ const Member2 = () => {
                                             className="underline decoration-primary/30 underline-offset-4 hover:decoration-primary"
                                             href="https://www.youtube.com/watch?v=5qo3aiVvf0I"
                                             target="_blank"
-                                            rel="noreferrer"
+                                            rel="noopener noreferrer"
                                         >
                                             Youtube
                                         </a>
@@ -274,8 +276,8 @@ const Member2 = () => {
                                     </span>
                                 </span>
                             </li>
-                        </div>
-                    </ul>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>

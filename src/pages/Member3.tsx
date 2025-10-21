@@ -31,7 +31,7 @@ const Member3 = () => {
           <div className="md:w-1/3 bg-gradient-to-b from-[#4acaa8] to-[#6de0c2] flex flex-col justify-center items-center text-white p-10 relative">
             <div className="w-32 h-44 rounded-2xl border-4 border-white shadow-lg overflow-hidden mb-4">
               <img
-                src="/dtphat/DoanThanhPhat.jpg"
+                src={`${import.meta.env.BASE_URL}dtphat/DoanThanhPhat.jpg`}
                 alt="Đoàn Thành Phát"
                 className="w-full h-full object-cover object-center"
               />

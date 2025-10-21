@@ -28,7 +28,7 @@ const Member5 = () => {
         {/* Header */}
         <div className="flex flex-col items-center mb-8">
           <img
-            src="/hsluan/picture.jpg"
+            src={`${import.meta.env.BASE_URL}hsluan/picture.jpg`}
             alt="Profile"
             className="w-28 h-28 rounded-full object-cover shadow-sm mb-4"
           />
@@ -143,7 +143,7 @@ const Member5 = () => {
                   href="https://github.com/HuynhLuan05"
                   className="text-blue-600 hover:underline"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   github.com/HuynhLuan05
                 </a>

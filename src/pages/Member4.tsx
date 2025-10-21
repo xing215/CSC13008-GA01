@@ -6,7 +6,7 @@ const Member4 = () => {
           {/* Left: avatar & contact */}
           <div className="md:w-1/3 p-6 flex flex-col items-center text-center bg-gray-50 dark:bg-gray-800">
             <img
-              src="/nhphung/profilepic.jpg"
+              src={`${import.meta.env.BASE_URL}nhphung/profilepic.jpg`}
               alt="Nguyễn Hoàng Phi Hùng"
               className="w-40 h-40 rounded-full object-cover border-4 border-white shadow-sm"
             />
@@ -17,7 +17,7 @@ const Member4 = () => {
               <a
                 href="https://github.com/nhphunng"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
                 className="mt-2 block w-full text-center px-4 py-2 border rounded-md text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700"
               >
                 GitHub: nhphunng
@@ -48,7 +48,7 @@ const Member4 = () => {
                   Vocaboost - Learning English Vocabulary website <a href="https://github.com/nhphunng/Intro2SE-23CLC06-Group06.git" className="text-blue-600">View</a>
                 </li>
                 <li>
-                  Time Jar - Naver Hackathon<a href="#" className="text-blue-600"></a>
+                  Time Jar - Naver Hackathon
                 </li>
               </ul>
             </section>
