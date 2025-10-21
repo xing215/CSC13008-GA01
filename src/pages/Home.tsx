@@ -4,42 +4,43 @@ const Home = () => {
     const teamMembers = [
         {
             id: 1,
-            name: "Member 1",
-            role: "Team Leader",
-            image: "https://via.placeholder.com/300",
+            name: "Vương Ngũ Tín Thành",
+            role: "Full-stack Developer",
+            image: "/vntthanh/profilepic.jpg",
             description:
-                "Leading the team with expertise in project management and full-stack development.",
+                "Skilled in React, TypeScript, Node.js, and MongoDB with expertise in building comprehensive web applications.",
         },
         {
             id: 2,
-            name: "Nguyen Hien Tuan Anh",
-            role: "Frontend Developer",
+            name: "Nguyễn Hiền Tuấn Anh",
+            role: "Front-end Developer",
             image: "/nhtanh/tnnhuaa.jpg",
             description:
                 "Specializing in creating beautiful and responsive user interfaces.",
         },
         {
             id: 3,
-            name: "Member 3",
-            role: "Backend Developer",
-            image: "https://via.placeholder.com/300",
+            name: "Đoàn Thành Phát",
+            role: "Back-end Developer",
+            image: "/dtphat/DoanThanhPhat.jpg",
             description:
-                "Expert in server-side technologies and database management.",
+                "Passionate about server-side development with C/C++, Python, and Node.js for building scalable systems.",
         },
         {
             id: 4,
-            name: "Member 4",
-            role: "UI/UX Designer",
-            image: "https://via.placeholder.com/300",
-            description: "Crafting intuitive and engaging user experiences.",
+            name: "Nguyễn Hoàng Phi Hùng",
+            role: "Fullstack Developer",
+            image: "/nhphung/profilepic.jpg",
+            description:
+                "Proficient in React, TypeScript, and Tailwind CSS with experience in both frontend and backend development.",
         },
         {
             id: 5,
-            name: "Member 5",
-            role: "Quality Assurance",
-            image: "https://via.placeholder.com/300",
+            name: "Huỳnh Sĩ Luân",
+            role: "Backend Developer",
+            image: "/hsluan/picture.jpg",
             description:
-                "Ensuring top-notch quality and reliability of our solutions.",
+                "Expert in Java, Spring Boot, and MySQL with focus on RESTful API and authentication systems.",
         },
     ];
 
