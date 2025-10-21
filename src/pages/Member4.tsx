@@ -6,7 +6,7 @@ const Member4 = () => {
           {/* Left: avatar & contact */}
           <div className="md:w-1/3 p-6 flex flex-col items-center text-center bg-gray-50 dark:bg-gray-800">
             <img
-              src="/nhphung/profilepic.jpg"
+              src={`${import.meta.env.BASE_URL}nhphung/profilepic.jpg`}
               alt="Nguyễn Hoàng Phi Hùng"
               className="w-40 h-40 rounded-full object-cover border-4 border-white shadow-sm"
             />

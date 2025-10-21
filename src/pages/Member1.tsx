@@ -31,7 +31,7 @@ const Member1 = () => {
           <div className="flex flex-col md:flex-row md:items-end -mt-16 mb-6">
             <div className="w-32 h-32 rounded-full border-4 border-white shadow-lg overflow-hidden bg-gray-200 mb-4 md:mb-0">
               <img
-                src="/vntthanh/profilepic.jpg"
+                src={`${import.meta.env.BASE_URL}vntthanh/profilepic.jpg`}
                 alt="Vương Ngũ Tín Thành"
                 className="w-full h-full object-cover"
               />

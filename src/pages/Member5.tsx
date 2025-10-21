@@ -28,7 +28,7 @@ const Member5 = () => {
         {/* Header */}
         <div className="flex flex-col items-center mb-8">
           <img
-            src="/hsluan/picture.jpg"
+            src={`${import.meta.env.BASE_URL}hsluan/picture.jpg`}
             alt="Profile"
             className="w-28 h-28 rounded-full object-cover shadow-sm mb-4"
           />

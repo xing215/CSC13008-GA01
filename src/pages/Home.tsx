@@ -6,7 +6,7 @@ const Home = () => {
             id: 1,
             name: "Vương Ngũ Tín Thành",
             role: "Full-stack Developer",
-            image: "/vntthanh/profilepic.jpg",
+            image: `${import.meta.env.BASE_URL}vntthanh/profilepic.jpg`,
             description:
                 "Skilled in React, TypeScript, Node.js, and MongoDB with expertise in building comprehensive web applications.",
         },
@@ -14,7 +14,7 @@ const Home = () => {
             id: 2,
             name: "Nguyễn Hiền Tuấn Anh",
             role: "Front-end Developer",
-            image: "/nhtanh/tnnhuaa.jpg",
+            image: `${import.meta.env.BASE_URL}nhtanh/tnnhuaa.jpg`,
             description:
                 "Specializing in creating beautiful and responsive user interfaces.",
         },
@@ -22,7 +22,7 @@ const Home = () => {
             id: 3,
             name: "Đoàn Thành Phát",
             role: "Back-end Developer",
-            image: "/dtphat/DoanThanhPhat.jpg",
+            image: `${import.meta.env.BASE_URL}dtphat/DoanThanhPhat.jpg`,
             description:
                 "Passionate about server-side development with C/C++, Python, and Node.js for building scalable systems.",
         },
@@ -30,7 +30,7 @@ const Home = () => {
             id: 4,
             name: "Nguyễn Hoàng Phi Hùng",
             role: "Fullstack Developer",
-            image: "/nhphung/profilepic.jpg",
+            image: `${import.meta.env.BASE_URL}nhphung/profilepic.jpg`,
             description:
                 "Proficient in React, TypeScript, and Tailwind CSS with experience in both frontend and backend development.",
         },
@@ -38,7 +38,7 @@ const Home = () => {
             id: 5,
             name: "Huỳnh Sĩ Luân",
             role: "Backend Developer",
-            image: "/hsluan/picture.jpg",
+            image: `${import.meta.env.BASE_URL}hsluan/picture.jpg`,
             description:
                 "Expert in Java, Spring Boot, and MySQL with focus on RESTful API and authentication systems.",
         },

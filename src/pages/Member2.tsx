@@ -32,7 +32,7 @@ const Member2 = () => {
                     <div className="flex flex-col md:flex-row md:items-end -mt-20 md:-mt-16 mb-8">
                         <div className="w-32 h-32 rotate-1 rounded-2xl border-4 border-white shadow-xl overflow-hidden bg-gray-100 mb-4 md:mb-0">
                             <img
-                                src="/nhtanh/tnnhuaa.jpg"
+                                src={`${import.meta.env.BASE_URL}nhtanh/tnnhuaa.jpg`}
                                 alt="Nguyễn Hiền Tuấn Anh"
                                 className="w-full h-full object-cover"
                             />
